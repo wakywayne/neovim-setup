@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/dandavison/delta/releases
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/193526915/ee4db121-9b46-49ec-b781-ea80efcf4fac?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230102T210246Z&X-Amz-Expires=300&X-Amz-Signature=3c56702d745c3ecb1c03769f1dc0ba6b986a8aa6c28a5b17d07c23f4968f3b83&X-Amz-SignedHeaders=host&actor_id=76792413&key_id=0&repo_id=193526915&response-content-disposition=attachment%3B%20filename%3Dgit-delta-musl_0.15.1_amd64.deb&response-content-type=application%2Foctet-stream

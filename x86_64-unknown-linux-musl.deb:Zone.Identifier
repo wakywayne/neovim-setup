@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/ms-jpq/sad/releases/tag/v0.4.22
+HostUrl=https://objects.githubusercontent.com/github-production-release-asset-2e65be/262460365/909d1186-bd9e-4b30-8e88-ce48b47f8416?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230103%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230103T041331Z&X-Amz-Expires=300&X-Amz-Signature=64d38392da4cf082fb501023b54fc9d2e4a59c090f17a23589fc4ca4d062bd54&X-Amz-SignedHeaders=host&actor_id=76792413&key_id=0&repo_id=262460365&response-content-disposition=attachment%3B%20filename%3Dx86_64-unknown-linux-musl.deb&response-content-type=application%2Foctet-stream

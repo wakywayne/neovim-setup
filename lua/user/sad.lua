@@ -1,4 +1,3 @@
-
 local status_ok, sad = pcall(require, "sad")
 if not status_ok then
   -- handle error
@@ -14,7 +13,8 @@ sad.setup({
   -- it is a threadhold when window is larger than the threshold sad will split vertically,
   height_ratio = 0.6, -- height ratio of sad window when split horizontally
   width_ratio = 0.6, -- height ratio of sad window when split vertically
-
+  debug = true,
+  autoclose = false,
 })
 
 -- onomatopoeiaforsad

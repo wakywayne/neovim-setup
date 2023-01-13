@@ -93,6 +93,7 @@ return packer.startup(function(use)
   use { "nvim-telescope/telescope.nvim", commit = "76ea9a898d3307244dce3573392dcf2cc38f340f" }
 
   -- Sad find and replace
+  -- Uses git grep to find and replace
   use { "ray-x/guihua.lua" }
 
   use({

@@ -1,15 +1,24 @@
 [core]
-    pager = delta
+  pager = delta --side-by-side -w ${FZF_PREVIEW_COLUMNS:-$COLUMNS}
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+
+[pager]
+    log = delta --side-by-side -w ${FZF_PREVIEW_COLUMNS:-$COLUMNS}
+    reflog = delta --side-by-side -w ${FZF_PREVIEW_COLUMNS:-$COLUMNS}
+    show = delta --side-by-side -w ${FZF_PREVIEW_COLUMNS:-$COLUMNS}
+    ;  diff = delta --side-by-side --width ${FZF_PREVIEW_COLUMNS:-$COLUMNS}   ;; this override core.pager
 
 [interactive]
     diffFilter = delta --color-only
 
 [delta]
-    navigate = true    # use n and N to move between diff sections
-    light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+    features = line-numbers decorations collared-trogon
+    whitespace-error-style = 22 reverse
+    side-by-side = true
 
-[merge]
-    conflictstyle = diff3
-
-[diff]
-    colorMoved = default
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none

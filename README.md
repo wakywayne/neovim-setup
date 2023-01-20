@@ -86,36 +86,3 @@ nvim -v
 
 \- Edsger W. Dijkstra
 
----
-
-Freestyle Wrestling Technique
-
-- Freestyle Wrestling Rules:
-
-> A typical freestyle wrestling bout, much like Greco-Roman, is divided into two periods of three minutes each with a 30-second break in between. For official Under-15, cadets and veteran competitions, the periods are curtailed to two minutes each.
-
-- Tie?
-
-  - If wrestlers are level in that aspect as well, the least number of cautions and final point scored are taken in order as the tie-breaking factors.
-
-- Winning By Points, Ten Point Tech, Pin
-
-- Points
-
-  - Take Down 2
-  - Reversal 2
-  - Push Out 2
-  - Throws
-
-- Throws
-
-  - Any time a wrestlers back gets exposed to the mat the wrestler that initially started the move gets 2 points
-  - Feet to back is 4 points
-  - If a throw involves the wrestler being thrown's feet going over his/her own head and lands on his/her back that will be a 5 point move
-
-- Take Down or Push Out When we go out of bounds
-
-- Passivity
-  - In freestyle wrestling, the first instance of passivity from a wrestler earns them a verbal warning from the referee. If they continue to be inactive, a 30-second mandatory scoring window is issued.
-  - If either wrestler scores within this window no penalty point is awarded
-  - If you receive a passivity with less than 30 second on the clock the other wrestler is automatically awarded a point

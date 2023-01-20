@@ -108,6 +108,9 @@ return packer.startup(function(use)
     run = 'TSUpdate'
   }
 
+  -- Working with Tags
+  use { "tpope/vim-surround" }
+
   -- Git
   use { "lewis6991/gitsigns.nvim", commit = "2c6f96dda47e55fa07052ce2e2141e8367cbaaf2" }
 

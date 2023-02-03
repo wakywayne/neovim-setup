@@ -1,10 +1,13 @@
+-- Very important you must double check the file name for lspconfig link below
+-- You must use the lsp name not the language name
+-- https://github.com/williamboman/mason-lspconfig.nvim/blob/main/doc/server-mapping.md
 local servers = {
   "tailwindcss",
   "sumneko_lua",
-  --   "lua-language-server", can't list this here because it is not from lsp language server
   -- "cssls",
   "html",
   "tsserver",
+  "prismals",
   -- "pyright",
   -- "bashls",
   "jsonls",

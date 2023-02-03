@@ -108,6 +108,9 @@ return packer.startup(function(use)
     run = 'TSUpdate'
   }
 
+  -- Other Syntax Highlighting
+use {'pantharshit00/vim-prisma'}
+
   -- Working with Tags
   use { "tpope/vim-surround" }
 

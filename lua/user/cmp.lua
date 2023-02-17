@@ -110,6 +110,7 @@ cmp.setup {
       return vim_item
     end,
   },
+  -- Order of snippets
   sources = {
     { name = "nvim_lsp" },
     { name = "luasnip" },

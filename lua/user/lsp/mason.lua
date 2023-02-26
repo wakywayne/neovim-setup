@@ -8,10 +8,8 @@ local servers = {
   "html",
   "tsserver",
   "prismals",
-  -- "pyright",
-  -- "bashls",
   "jsonls",
-  -- "yamlls",
+  "graphql",
 }
 
 local settings = {
